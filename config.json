@@ -7,12 +7,22 @@
       "listen_port": 10000,
       "users": [
         {
-          "uuid": "62a1111a-9079-423e-bb39-dd560c3cb9c5",
+          "uuid": "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",
           "flow": ""
         }
       ],
       "tls": {
-        "enabled": false
+        "enabled": true,
+        "server_name": "bing.com",
+        "reality": {
+          "enabled": true,
+          "handshake": {
+            "server": "bing.com",
+            "server_port": 443
+          },
+          "private_key": "mOiBVka6VW2EQ1Hv15j-seVluAinfoZnXPy7F9lQkHQ",
+          "short_ids": ["f9e8d7c6"]
+        }
       }
     }
   ],
