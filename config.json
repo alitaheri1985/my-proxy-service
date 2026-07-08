@@ -1,0 +1,25 @@
+{
+  "inbounds": [
+    {
+      "type": "vless",
+      "tag": "vless-in",
+      "listen": "::",
+      "listen_port": 10000,
+      "users": [
+        {
+          "uuid": "62a1111a-9079-423e-bb39-dd560c3cb9c5",
+          "flow": ""
+        }
+      ],
+      "tls": {
+        "enabled": false
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ]
+}
